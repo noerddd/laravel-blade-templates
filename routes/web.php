@@ -58,3 +58,16 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact', ['name' => 'noer dafiq', 'email' => 'dafiqmohamad@gmail.com', 'phone' => '085649188404']);
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+Route::get('/dashboard2', function () {
+    return view('dashboard2');
+});
+
+
+Route::get('/dashboard3', function () {
+    return view('dashboard3');
+});
